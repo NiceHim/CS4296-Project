@@ -55,5 +55,5 @@ nano ./benchmark/torchbenchmark/models/nvidia_deeprecommender/nvinfer.py
 <h3>Enter the command below:</h3>
 
 ```bash
-source  eval_models.sh
+source eval_models.sh
 ```
