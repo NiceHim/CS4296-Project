@@ -22,7 +22,6 @@ python3 run.py nvidia_deeprecommender -d cpu -t eval --metrics model_flops,cpu_p
 python3 run.py dlrm -d cpu -t eval --metrics model_flops,cpu_peak_mem
 python3 run.py speech_transformer -d cpu -t eval --metrics model_flops,cpu_peak_mem
 python3 run.py demucs -d cpu -t eval --metrics model_flops,cpu_peak_mem
-python3 run.py tts_angular -d cpu -t eval --metrics model_flops,cpu_peak_mem
 python3 run.py hf_GPT2 -d cpu -t eval --metrics model_flops,cpu_peak_mem
 python3 run.py hf_GPT2_large -d cpu -t eval --metrics model_flops,cpu_peak_mem
 python3 run.py llama -d cpu -t eval --metrics model_flops,cpu_peak_mem
