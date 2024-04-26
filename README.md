@@ -37,15 +37,6 @@ source install_models.sh
 <h3>Enter the command below:</h3>
 
 ```bash
-cd benchmark
-python3 install.py tts_angular
-cd ..
-```
-
-<h2>Step 8:</h2>
-<h3>Enter the command below:</h3>
-
-```bash
 nano ./benchmark/torchbenchmark/models/nvidia_deeprecommender/nvinfer.py
 ```
 <h3>Modify line 97 from args.use_xpu = torch.xpu.is_available() to args.use_xpu = False</h3>
