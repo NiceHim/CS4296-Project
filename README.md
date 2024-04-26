@@ -8,15 +8,16 @@
 <h2>Step 2:</h2>
 <h3>SSH remote control to the created AWS EC2 instance</h3>
 
+
 <h2>Step 3:</h2>
+<h3>Create 2 shell scripts which are install_models.sh and eval_models.sh that showed in the repository</h3>
+
+<h2>Step 4:</h2>
 <h3>Enter the commnad below:</h3>
 
 ```bash
 sudo su
 ```
-
-<h2>Step 4:</h2>
-<h3>Create 2 shell scripts which are install_models.sh and eval_models.sh that showed in the repository</h3>
 
 <h2>Step 5:</h2>
 <h3>Enter the command below:</h3>
