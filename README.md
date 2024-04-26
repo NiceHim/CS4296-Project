@@ -39,7 +39,7 @@ source install_models.sh
 ```bash
 cd benchmark
 python3 install.py tts_angular
-cd . .
+cd ..
 ```
 
 <h2>Step 8:</h2>
