@@ -30,6 +30,6 @@ for model in "${models[@]}"; do
 	python3 install.py $model
 done
 
-cd . .
+cd ..
 
 echo "All Machine Learning Models installed successfully."
