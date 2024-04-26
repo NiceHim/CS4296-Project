@@ -10,7 +10,8 @@
 
 <h2>Step 3:</h2>
 <h3>Enter the commnad below:</h3>
-```
+
+```bash
 sudo su
 ```
 
@@ -19,19 +20,22 @@ sudo su
 
 <h2>Step 5:</h2>
 <h3>Enter the command below:</h3>
-```
+
+```bash
 chmod 777 install_models.sh
 chmod 777 eval_models.sh
 ```
 <h2>Step 6:</h2>
 <h3>Enter the command below:</h3>
-```
+
+```bash
 source install_models.sh
 ```
 
 <h2>Step 7:</h2>
 <h3>Enter the command below:</h3>
-```
+
+```bash
 cd benchmark
 python3 install.py tts_angular
 cd . .
@@ -39,7 +43,8 @@ cd . .
 
 <h2>Step 8:</h2>
 <h3>Enter the command below:</h3>
-```
+
+```bash
 nano ./benchmark/torchbenchmark/models/nvidia_deeprecommender/nvinfer.py
 ```
 <h3>Modify line 97 from args.use_xpu = torch.xpu.is_available() to args.use_xpu = False</h3>
@@ -47,6 +52,7 @@ nano ./benchmark/torchbenchmark/models/nvidia_deeprecommender/nvinfer.py
 
 <h2>Step 8:</h2>
 <h3>Enter the command below:</h3>
-```
+
+```bash
 source  eval_models.sh
 ```
