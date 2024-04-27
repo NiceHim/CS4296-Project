@@ -20,8 +20,7 @@ models=(
 	"detectron2_maskrcnn_r_50_c4" "yolov3" "vision_maskrcnn"
 	"detectron2_fasterrcnn_r_50_c4" "detectron2_fasterrcnn_r_50_dc5" "timm_vovnet"
 	"nvidia_deeprecommender" "dlrm" "speech_transformer" "demucs"
-	"tts_angular" "hf_GPT2" "hf_GPT2_large"
-	"llama" "llama_v2_7b_16h"
+	"hf_GPT2" "hf_GPT2_large" "llama" "llama_v2_7b_16h"
 )	
 
 
